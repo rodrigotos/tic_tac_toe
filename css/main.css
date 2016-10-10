@@ -9,12 +9,12 @@ ul{
 }
 
 header{
-  background-color: black;
+  background-color: #14bdac;
   text-align: center;
 }
 
 h1{
-    color: white;
+    color: #4f4545;
     font-size: 51px;
     font-weight: bolder;
 }
@@ -38,11 +38,16 @@ li > button{
   width: 200px;
 }
 
+#reset{
+  width: 70px;
+  height: 20px;
+}
+
 main{
   top: 50%;
   transform: translateY(-50%);
   margin: auto;
-  width: 500px;
+  width: 200px;
   position: relative;
 }
 

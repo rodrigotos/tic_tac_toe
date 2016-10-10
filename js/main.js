@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function(){
   turn_label = document.querySelector("#player_turn");
   how_won_label = document.querySelector("#how_won");
   var reset = document.querySelector("#reset");
-  reset.addEventListener("click", this.reset);
+  reset.addEventListener("click", reset);
   turn_label.innerHTML = "Turn of Player " + '"X"';
   var game_buttons = document.querySelectorAll("#game_buttons button");
   var i = 0;
