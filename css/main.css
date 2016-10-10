@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+  display: inline-block;
+}
+
+header{
+  background-color: black;
+  text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 51px;
+    font-weight: bolder;
+}
+
+ul li{
+  display: inline-block;
+  line-height: 0;
+  font-size: 0;
+}
+
+li > button{
+  width: 60px;
+  height: 60px;
+}
+
+#game_buttons{
+  width: 200px;
+}
+
+#score_board{
+  width: 200px;
+}
+
+main{
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+  width: 500px;
+  position: relative;
+}
+
+html, body{
+  height: 100%;
+  min-height: 100%
+}
+
+.cellRed{
+  background-color: #9e1313;
+  font-size: 50px;
+  color: white;
+}
+
+.cellGreen{
+  background-color: #14bdac;
+  font-size: 50px;
+  color: white;
+}
